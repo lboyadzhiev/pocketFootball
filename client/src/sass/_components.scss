@@ -1,0 +1,30 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        display: inline-block;
+        text-decoration: none;
+        letter-spacing: 1rem;
+        text-transform: uppercase;
+        align-self: center;
+        border-radius: 10rem;
+        padding: 1.5rem 4rem;
+        font-size: 1.6rem;
+        background-color: $color-primary-green;
+        color: $color-light;
+
+        animation-name: moveInLeft;
+        animation-delay: 0.2s;
+        animation-duration: 2s;
+        animation-fill-mode: backwards;
+
+        @media only screen and (max-width: $bg-smallest) {
+            display: none;
+        }
+    }
+
+    &:hover {
+        background-color: $color-primary-green;
+        box-shadow: $shadow;
+    }
+}

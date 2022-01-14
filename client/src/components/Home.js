@@ -2,17 +2,16 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
             <Img />
             <Content />
+            <Footer />
         </div>
     );
 };
 
-export default Home;
-
 const Img = () => {
-    return <div className='home-image'></div>;
+    return <div className='img'></div>;
 };
 
 const Content = () => {
@@ -25,3 +24,27 @@ const Content = () => {
         </div>
     );
 };
+
+const Footer = () => {
+    return (
+        <div className='footer'>
+            <div className='footer-text'>
+                <h2 className='heading-secondary'>Join Pocket Football community</h2>
+                <ul>
+                    <li className='text-footer'>Create football events</li>
+                    <li className='text-footer'>Join football tournaments</li>
+                    <li className='text-footer'>
+                        Invite your friends to create ultimate football community
+                    </li>
+                </ul>
+            </div>
+            <div className='footer-btn'>
+                <a href='/register' className='btn'>
+                    Sign up
+                </a>
+            </div>
+        </div>
+    );
+};
+
+export default Home;
