@@ -1,38 +1,16 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Navigation from './components/Navigation';
+import Home from './components/Home';
+
 function App() {
     return (
-        <div className='App'>
+        <div className='app'>
             <Navigation />
+            <Home />
         </div>
     );
 }
-
-const Navigation = () => {
-    return (
-        <nav className='nav'>
-            <ul>
-                <li>
-                    <a href='#'>My Games</a>
-                </li>
-                <li>
-                    <a href='#'>Publick Games</a>
-                </li>
-                <li>
-                    <a href='#'>Pocket FEED</a>
-                </li>
-                <li>
-                    <a href='#'>Tournaments</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href='#'>Welcome Email Adress</a>
-                </li>
-                <li>
-                    <a href='#'>Logout</a>
-                </li>
-            </ul>
-        </nav>
-    );
-};
 
 export default App;
