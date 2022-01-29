@@ -16,7 +16,7 @@
         width: 95%;
     }
     &__btn {
-        @media only screen and (max-width: $bp-medium) {
+        @media only screen and (max-width: $bp-small) {
             display: none;
         }
     }
@@ -25,14 +25,14 @@
         color: $color-light;
         font-size: 1.6rem;
 
-        @media only screen and (max-width: $bp-medium) {
-            font-size: 1.2rem;
-        }
-
         & h2 {
             @media only screen and (max-width: $bp-small) {
                 font-size: 1.7rem;
             }
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 1.2rem;
         }
     }
 }

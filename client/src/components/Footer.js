@@ -17,7 +17,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='footer__btn'>
-                <Button content='Sign Up' />
+                <Button className='btn--green' content='Sign Up' />
             </div>
         </div>
     );

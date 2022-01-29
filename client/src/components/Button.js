@@ -2,11 +2,10 @@ import React from 'react';
 
 const Button = (props) => {
     const content = props.content;
+    const classes = 'btn ' + props.className;
     return (
-        <div>
-            <a href='/register' className='btn'>
-                {content}
-            </a>
+        <div className={classes}>
+            <a href='/'>{content}</a>
         </div>
     );
 };
