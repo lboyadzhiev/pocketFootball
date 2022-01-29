@@ -10,13 +10,23 @@ const User = () => {
     return (
         <nav className='nav'>
             <ul>
-                <ListItem content={<a href='#'>Welcome UserName</a>} />
+                <ListItem>
+                    <a href='#'>Welcome UserName</a>
+                </ListItem>
             </ul>
             <ul>
-                <ListItem content={<a href='#'>My Games</a>} />
-                <ListItem content={<a href='#'>Publick Games</a>} />
-                <ListItem content={<a href='#'>PocketFEED</a>} />
-                <ListItem content={<a href='#'>Rournaments</a>} />
+                <ListItem>
+                    <a href='#'>My Games</a>
+                </ListItem>
+                <ListItem>
+                    <a href='#'>Publick Games</a>
+                </ListItem>
+                <ListItem>
+                    <a href='#'>PocketFEED</a>
+                </ListItem>
+                <ListItem>
+                    <a href='#'>Rournaments</a>
+                </ListItem>
             </ul>
         </nav>
     );
@@ -26,13 +36,23 @@ const Guest = () => {
     return (
         <nav className='nav'>
             <ul>
-                <ListItem content={<a href='#'>Login</a>} />
-                <ListItem content={<a href='#'>Register</a>} />
+                <ListItem>
+                    <a href='#'>Login</a>
+                </ListItem>
+                <ListItem>
+                    <a href='#'>Register</a>
+                </ListItem>
             </ul>
             <ul>
-                <ListItem content={<a href='#'>Games</a>} />
-                <ListItem content={<a href='#'>Pocket FEED</a>} />
-                <ListItem content={<a href='#'>Tournaments</a>} />
+                <ListItem>
+                    <a href='#'>Games</a>
+                </ListItem>
+                <ListItem>
+                    <a href='#'>Pocket FEED</a>
+                </ListItem>
+                <ListItem>
+                    <a href='#'>Tournaments</a>
+                </ListItem>
             </ul>
         </nav>
     );
