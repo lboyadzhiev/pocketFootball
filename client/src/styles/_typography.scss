@@ -51,18 +51,6 @@
     letter-spacing: 0.1rem;
 }
 
-.footer-text {
-    color: $color-light;
-    font-size: 1.6rem;
-
-    @media only screen and (max-width: $bp-medium) {
-        font-size: 1.2rem;
-    }
-}
-.text-footer {
-    list-style: none;
-}
-
 .heading-tertiary {
     padding: 2rem;
     color: $color-primary-blue;
