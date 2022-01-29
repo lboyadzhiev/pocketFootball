@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Button from './Button';
+import ListItem from './ListItem';
 
 const Footer = () => {
     return (
@@ -8,11 +9,9 @@ const Footer = () => {
             <div className='footer__text'>
                 <h2 className='heading-secondary'>Join Pocket Football community</h2>
                 <ul>
-                    <li className='footer__textItem'>Create football events</li>
-                    <li className='footer__textItem'>Join football tournaments</li>
-                    <li className='footer__textItem'>
-                        Invite your friends to create ultimate football community
-                    </li>
+                    <ListItem content='Create football events' />
+                    <ListItem content='Join football tournaments' />
+                    <ListItem content='Invite your friends to create ultimate football community' />
                 </ul>
             </div>
             <div className='footer__btn'>

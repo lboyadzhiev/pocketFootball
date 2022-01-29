@@ -1,30 +1,22 @@
 import React from 'react';
 
+import ListItem from './ListItem';
+
 const Navigation = () => {
-    return <Guest />;
+    return <User />;
 };
 
 const User = () => {
     return (
         <nav className='nav'>
             <ul>
-                <li>
-                    <a href='#'>Welcome UserName</a>
-                </li>
+                <ListItem content={<a href='#'>Welcome UserName</a>} />
             </ul>
             <ul>
-                <li>
-                    <a href='#'>My Games</a>
-                </li>
-                <li>
-                    <a href='#'>Publick Games</a>
-                </li>
-                <li>
-                    <a href='#'>PocketFEED</a>
-                </li>
-                <li>
-                    <a href='#'>Rournaments</a>
-                </li>
+                <ListItem content={<a href='#'>My Games</a>} />
+                <ListItem content={<a href='#'>Publick Games</a>} />
+                <ListItem content={<a href='#'>PocketFEED</a>} />
+                <ListItem content={<a href='#'>Rournaments</a>} />
             </ul>
         </nav>
     );
@@ -34,23 +26,13 @@ const Guest = () => {
     return (
         <nav className='nav'>
             <ul>
-                <li>
-                    <a href='#'>Login</a>
-                </li>
-                <li>
-                    <a href='#'>Register</a>
-                </li>
+                <ListItem content={<a href='#'>Login</a>} />
+                <ListItem content={<a href='#'>Register</a>} />
             </ul>
             <ul>
-                <li>
-                    <a href='#'>Games</a>
-                </li>
-                <li>
-                    <a href='#'>Pocket FEED</a>
-                </li>
-                <li>
-                    <a href='#'>Tournaments</a>
-                </li>
+                <ListItem content={<a href='#'>Games</a>} />
+                <ListItem content={<a href='#'>Pocket FEED</a>} />
+                <ListItem content={<a href='#'>Tournaments</a>} />
             </ul>
         </nav>
     );
