@@ -2,12 +2,14 @@ import React from 'react';
 
 import Button from './Button';
 import ListItem from './ListItem';
+import HeadingSecondary from './HeadingSecondary';
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer__text'>
-                <h2 className='heading-secondary'>Join Pocket Football community</h2>
+                <HeadingSecondary content='Join Pocket Football community' />
+
                 <ul>
                     <ListItem content='Create football events' />
                     <ListItem content='Join football tournaments' />

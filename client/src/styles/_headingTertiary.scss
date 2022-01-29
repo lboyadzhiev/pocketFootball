@@ -1,0 +1,13 @@
+.heading-tertiary {
+    padding: 2rem;
+    color: $color-primary-blue;
+    font-size: 2.5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        display: none;
+    }
+}
