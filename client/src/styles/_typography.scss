@@ -16,11 +16,11 @@
         animation-duration: 2s;
         animation-timing-function: ease-in;
 
-        @media only screen and (max-width: $bg-medium) {
+        @media only screen and (max-width: $bp-medium) {
             font-size: 3.2rem;
         }
 
-        @media only screen and (max-width: $bg-small) {
+        @media only screen and (max-width: $bp-small) {
             font-size: 3.2rem;
             text-align: center;
             letter-spacing: normal;
@@ -39,7 +39,7 @@
         animation-duration: 2s;
         animation-timing-function: ease-in;
 
-        @media only screen and (max-width: $bg-medium) {
+        @media only screen and (max-width: $bp-medium) {
             font-size: 2.2rem;
         }
     }
@@ -51,10 +51,16 @@
     letter-spacing: 0.1rem;
 }
 
-.text-footer {
-    list-style: none;
+.footer-text {
     color: $color-light;
     font-size: 1.6rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 1.2rem;
+    }
+}
+.text-footer {
+    list-style: none;
 }
 
 .heading-tertiary {
@@ -62,11 +68,11 @@
     color: $color-primary-blue;
     font-size: 2.5rem;
 
-    @media only screen and (max-width: $bg-medium) {
+    @media only screen and (max-width: $bp-medium) {
         font-size: 3rem;
     }
 
-    @media only screen and (max-width: $bg-smallest) {
+    @media only screen and (max-width: $bp-smallest) {
         display: none;
     }
 }

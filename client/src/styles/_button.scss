@@ -18,13 +18,12 @@
         animation-duration: 2s;
         animation-fill-mode: backwards;
 
-        @media only screen and (max-width: $bg-smallest) {
+        @media only screen and (max-width: $bp-smallest) {
             display: none;
         }
     }
 
     &:hover {
-        background-color: $color-primary-green;
         box-shadow: $shadow;
     }
 }

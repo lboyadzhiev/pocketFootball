@@ -1,14 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import './styles/App.scss';
 
 import Navigation from './components/Navigation';
-import Home from './components/Home';
+import Main from './components/Main';
 
 function App() {
     return (
         <div className='app'>
             <Navigation />
-            <Home />
+            <Main />
         </div>
     );
 }

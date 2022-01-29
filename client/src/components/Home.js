@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 const Home = () => {
     return (
@@ -38,10 +39,8 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className='footer-btn'>
-                <a href='/register' className='btn'>
-                    Sign up
-                </a>
+            <div className='footer__btn'>
+                <Button content='Sign Up' />
             </div>
         </div>
     );
