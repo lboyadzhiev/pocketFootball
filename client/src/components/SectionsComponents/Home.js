@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
-import HeadingPrimary from './HeadingPrimary';
+import HeadingPrimary from '../HeadingPrimary';
 
 const Home = () => {
     return (

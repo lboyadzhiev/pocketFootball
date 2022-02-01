@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Button from './Button';
-import ListItem from './ListItem';
-import HeadingSecondary from './HeadingSecondary';
+import Button from '../Button';
+import ListItem from '../ListItem';
+import HeadingSecondary from '../HeadingSecondary';
 
 const Footer = () => {
     return (
