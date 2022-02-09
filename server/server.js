@@ -1,3 +1,7 @@
+const fs = require('fs');
+
 function hello() {
-    console.log(server);
+    console.log('server');
 }
+
+hello();

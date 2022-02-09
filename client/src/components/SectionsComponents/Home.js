@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
-import HeadingPrimary from '../HeadingPrimary';
+import HeadingPrimary from '../typography/HeadingPrimary';
 
 const Home = () => {
     return (

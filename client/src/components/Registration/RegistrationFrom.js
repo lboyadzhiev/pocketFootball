@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
-import Button from '../Button';
-
-import './Form.css';
+import Button from '../UI/Button';
 
 const RegistrationForm = () => {
     const emailHandler = () => {
@@ -19,19 +17,19 @@ const RegistrationForm = () => {
 
     return (
         <form className='form'>
-            <div>
+            <div className='form__items'>
                 <label className='form__label'>Email</label>
                 <input type='email' className='form__item' onChange={emailHandler} />
             </div>
-            <div>
+            <div className='form__items'>
                 <label className='form__label'>Password</label>
                 <input type='password' className='form__item' onChange={passwordHandler} />
             </div>
-            <div>
+            <div className='form__items'>
                 <label className='form__label'>RePass</label>
                 <input type='password' className='form__item' onChange={rePassHandler} />
             </div>
-            <Button content='submit' />
+            <Button className='btn--green' content='Sign Up' />
         </form>
     );
 };

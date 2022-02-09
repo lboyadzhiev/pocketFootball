@@ -1,13 +1,11 @@
 import React from 'react';
-import Heading from '../HeadingSecondary';
+import Heading from '../typography/HeadingTertiary';
 import RegistrationForm from './RegistrationFrom';
-
-import './Registration.css';
 
 const Registration = () => {
     return (
         <div className='form-section'>
-            <Heading content='Registration' />
+            <Heading content='Sign Up' />
             <RegistrationForm />
         </div>
     );
