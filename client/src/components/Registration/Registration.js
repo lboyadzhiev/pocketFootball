@@ -1,4 +1,7 @@
 import React from 'react';
+
+import './Registration.css';
+
 import Heading from '../typography/HeadingTertiary';
 import RegistrationForm from './RegistrationFrom';
 

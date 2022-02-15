@@ -1,6 +1,8 @@
 import React from 'react';
 
+import './Content.css';
 import HeadingPrimary from '../../typography/HeadingPrimary';
+
 const Content = () => {
     return (
         <div className='text-box'>
