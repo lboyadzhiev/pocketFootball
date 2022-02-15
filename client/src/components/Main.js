@@ -1,8 +1,9 @@
 import React from 'react';
 
+import './Main.css';
 import { FaAlignLeft } from 'react-icons/fa';
 
-import Home from './SectionsComponents/Home';
+import Home from './Sections/HomePage/HomePage';
 import Registration from '../components/Registration/Registration';
 
 const Main = () => {

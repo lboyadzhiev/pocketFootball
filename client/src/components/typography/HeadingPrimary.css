@@ -1,0 +1,46 @@
+.heading-primary {
+    color: var (--color-primary-blue);
+    text-transform: uppercase;
+    flex-basis: 20rem;
+    backface-visibility: hidden;
+}
+
+.heading-primary--main {
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+
+    @media only screen and (max-width: var(--bp-medium)) {
+        font-size: 3.2rem;
+    }
+
+    @media only screen and (max-width: var(--bp-small)) {
+        font-size: 3.2rem;
+        text-align: center;
+        letter-spacing: normal;
+    }
+}
+
+.heading-primary--sub {
+    display: block;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    text-align: center;
+    color: var(--color-primary-blue);
+
+    animation-name: moveInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+
+    @media only screen and (max-width: var(--bp-medium)) {
+        font-size: 2.2rem;
+    }
+}

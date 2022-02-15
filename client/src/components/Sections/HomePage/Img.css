@@ -1,0 +1,10 @@
+.img {
+    height: 40%;
+    width: 95%;
+    background-image: url('https://ronaldo.com/wp-content/uploads/2018/03/Natural-grass-vs.-artificial-grass.jpg');
+    margin: 1rem auto;
+    background-size: cover;
+    background-position: 0 15%;
+    height: 30%;
+    margin-bottom: 5rem;
+}

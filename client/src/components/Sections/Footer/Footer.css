@@ -1,0 +1,35 @@
+.footer {
+    width: 95%;
+    height: 12rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary-blue);
+    padding: 2rem;
+
+    @media only screen and (max-width: var(--bp-medium)) {
+        height: 17rem;
+    }
+}
+
+.footer__btn {
+    @media only screen and (max-width: var(--bp-smallest)) {
+        display: none;
+    }
+}
+
+.footer__text {
+    color: var(--color-light);
+    font-size: 1.6rem;
+
+    @media only screen and (max-width: var(--bp-medium)) {
+        font-size: 1.2rem;
+    }
+}
+
+.footer__text h2 {
+    @media only screen and (max-width: var(--bp-small)) {
+        font-size: 1.7rem;
+    }
+}
