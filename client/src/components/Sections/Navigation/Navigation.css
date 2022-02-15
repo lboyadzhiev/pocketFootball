@@ -1,0 +1,11 @@
+.nav {
+    background-color: var(--color-primary-blue);
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+
+    @media only screen and (max-width: var(--bp-medium)) {
+        display: none;
+    }
+}

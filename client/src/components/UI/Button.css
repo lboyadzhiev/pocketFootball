@@ -1,0 +1,50 @@
+.btn {
+    border-radius: 1rem;
+    padding: 1.5rem 4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: var(--shadow);
+}
+
+.btn a {
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+.btn--green {
+    background-color: var(--color-primary-green);
+    color: var(--color-light);
+    animation-name: moveInLeft;
+    animation-delay: 0.2s;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+.btn--gree:hover {
+    background-color: var(--color-primary-blue);
+    color: var(--color-light);
+    box-shadow: var(--shadow);
+    box-sizing: border-box;
+    transform: translateY(-1px);
+    border: 1px solid var(--color-light);
+}
+
+.btn--white {
+    font-size: 1.4rem;
+    color: #000;
+    padding: 1rem;
+    border: 1px solid var(--color-primary-blue);
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.btn--white:hover {
+    background-color: var(--color-primary-blue);
+    color: var(--color-light);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+}
