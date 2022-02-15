@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './RegistrationForm.css';
 
-import Button from '../UI/Button';
+import Button from '../../UI/Button';
 
 const RegistrationForm = () => {
     const emailHandler = () => {

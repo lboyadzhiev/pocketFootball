@@ -4,7 +4,7 @@ import './Main.css';
 import { FaAlignLeft } from 'react-icons/fa';
 
 import Home from './Sections/HomePage/HomePage';
-import Registration from '../components/Registration/Registration';
+import Registration from '../components/Sections/Registration/Registration';
 
 const Main = () => {
     return (
