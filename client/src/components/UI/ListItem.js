@@ -4,7 +4,8 @@ import './ListItem.css';
 
 const ListItem = (props) => {
     const content = props.children || props.content;
-    return <li className='list-item'>{content}</li>;
+    const classes = 'list-item ' + props.className;
+    return <li className={classes}>{content}</li>;
 };
 
 export default ListItem;
