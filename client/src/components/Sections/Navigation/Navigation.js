@@ -7,7 +7,7 @@ import Guest from './Guest';
 const Navigation = () => {
     return (
         <nav className='nav'>
-            <User />
+            <Guest />
         </nav>
     );
 };

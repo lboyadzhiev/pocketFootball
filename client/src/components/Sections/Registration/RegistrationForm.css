@@ -35,18 +35,6 @@
     display: block;
     transition: all 0.3s;
     width: 100%;
-
-    @media only screen and (max-width: var(--bp-large)) {
-        width: 90%;
-    }
-
-    @media only screen and (max-width: var(--bp-medium)) {
-        font-size: 2.5rem;
-    }
-
-    @media only screen and (max-width: var(--bp-smallest)) {
-        width: 100%;
-    }
 }
 
 .form__item:focus {
@@ -56,4 +44,22 @@
 }
 .form__item:focus:invalid {
     border-bottom: 3px solid red;
+}
+
+@media only screen and (max-width: 68.75em) {
+    .form__item {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 60em) {
+    .form__item {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 31.25em) {
+    .form__item {
+        width: 100%;
+    }
 }

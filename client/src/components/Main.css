@@ -1,10 +1,6 @@
 .main {
     width: calc(100vw - 10rem);
     height: 100vh;
-
-    @media only screen and (max-width: var(--bp-medium)) {
-        width: 100vw;
-    }
 }
 
 .main__menu-container {
@@ -18,13 +14,18 @@
     top: 2rem;
     right: 2rem;
     display: none;
-
-    @media only screen and (max-width: var(--bp-medium)) {
-        display: block;
-    }
 }
 
 .main__menu {
     font-size: 3.5rem;
     color: var(--color-primary-blue);
+}
+
+@media only screen and (max-width: 60em) {
+    .main {
+        width: 100vw;
+    }
+    .main__menu-container {
+        display: block;
+    }
 }

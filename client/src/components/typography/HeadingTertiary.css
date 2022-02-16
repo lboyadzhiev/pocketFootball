@@ -2,12 +2,16 @@
     padding: 2rem;
     color: var(--color-primary-blue);
     font-size: 2.5rem;
+}
 
-    @media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 60em) {
+    .heading-tertiary {
         font-size: 3rem;
     }
+}
 
-    @media only screen and (max-width: var(--bp-smallest)) {
+@media only screen and (max-width: 31.25em) {
+    .heading-tertiary {
         display: none;
     }
 }

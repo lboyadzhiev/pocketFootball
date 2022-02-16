@@ -9,11 +9,11 @@
     --border: 1.5rem;
     --shadow: 2px 1px 5px var(--color-primary-blue);
 
-    --bg-smallest: 31.25em; /*500 px*/
-    --bg-small: 46.8em; /*750 px*/
-    --bg-medium: 60em; /*950 px*/
-    --bg-large: 68.75em; /*1100 px*/
-    --bg-largest: 75em; /*1200 px*/
+    --bp-largest: 75em; /*1200 px*/
+    --bp-large: 68.75em; /*1100 px*/
+    --bp-medium: 60em; /*950 px*/
+    --bp-small: 46.8em; /*750 px*/
+    --bp-smallest: 31.25em; /*500 px*/
 }
 
 @keyframes moveInLeft {
