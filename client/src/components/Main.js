@@ -5,6 +5,7 @@ import { FaAlignLeft } from 'react-icons/fa';
 
 import Home from './Sections/HomePage/HomePage';
 import Registration from '../components/Sections/Registration/Registration';
+import Profile from './Sections/Profile/Profile';
 
 const Main = () => {
     return (
@@ -14,6 +15,7 @@ const Main = () => {
             </div>
             <Home />
             <Registration />
+            <Profile />
         </div>
     );
 };
