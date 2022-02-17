@@ -1,5 +1,5 @@
 .main {
-    width: calc(100vw - 10rem);
+    width: calc(100vw - 17rem);
     height: 100vh;
 }
 
@@ -12,7 +12,7 @@
     padding-top: 1rem;
     position: absolute;
     top: 2rem;
-    right: 2rem;
+    right: 4rem;
     display: none;
 }
 
@@ -27,5 +27,6 @@
     }
     .main__menu-container {
         display: block;
+        right: 2rem;
     }
 }

@@ -13,10 +13,3 @@ const Content = () => {
 };
 
 export default Content;
-
-/*
-            <HeadingPrimary>
-                <span className='heading-primary--main'>Pocket football</span>
-                <span className='heading-primary--sub'>where the game is starting</span>
-            </HeadingPrimary>
-*/
