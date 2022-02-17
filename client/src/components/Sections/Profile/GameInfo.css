@@ -1,0 +1,58 @@
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 75%;
+    width: 48%;
+}
+
+.profile__info > * {
+    border-radius: var(--border);
+    box-shadow: var(--shadow);
+}
+
+.profile__info-personal {
+    background-color: var(--color-white);
+    height: 40%;
+}
+
+.profile__info-personal ul {
+    padding: 1rem;
+}
+
+.profile__info-game {
+    background-color: var(--color-white);
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__info-list {
+    text-align: left;
+    padding: 1rem;
+}
+
+.profile__info-list > * {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 60em) {
+    .profile__info-game {
+        font-size: 50%;
+    }
+
+    .profile__info-personal {
+        height: 30%;
+    }
+
+    .profile__info-game {
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width: 46.8em) {
+    .profile__info {
+        display: none;
+    }
+}

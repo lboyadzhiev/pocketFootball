@@ -1,10 +1,9 @@
 .profile__player-info {
-    height: 50vh;
-    width: 35vw;
+    height: 75%;
+    width: 50%;
     background-color: var(--color-white);
     border-radius: var(--border);
     box-shadow: var(--shadow);
-
     padding: 1rem;
 }
 .profile__img {
@@ -46,4 +45,17 @@
 
 .profile__item {
     font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 46.8em) {
+    .profile__player-info {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 31.25em) {
+    .profile__player-info {
+        margin: 0 auto;
+        width: 90%;
+    }
 }

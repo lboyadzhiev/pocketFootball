@@ -1,0 +1,19 @@
+.profile__btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 1.5rem;
+    width: 35%;
+}
+
+@media only screen and (max-width: 60em) {
+    .profile__btns {
+        width: 10vw;
+    }
+}
+
+@media only screen and (max-width: 46.8em) {
+    .profile__btns {
+        width: 14vw;
+    }
+}
