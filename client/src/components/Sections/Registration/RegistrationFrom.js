@@ -28,7 +28,7 @@ const RegistrationForm = () => {
                 <input type='password' className='form__item' onChange={passwordHandler} />
             </div>
             <div className='form__items'>
-                <label className='form__label'>RePass</label>
+                <label className='form__label'>Repeat Password</label>
                 <input type='password' className='form__item' onChange={rePassHandler} />
             </div>
             <Button className='btn--green' content='Sign Up' />
