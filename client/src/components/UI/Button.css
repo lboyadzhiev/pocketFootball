@@ -11,7 +11,7 @@
 
 .btn a {
     text-decoration: none;
-    color: var(--color-light);
+    color: inherit;
 }
 
 .btn--green {
@@ -42,9 +42,9 @@
     transition: all 0.2s;
 }
 
-.btn--white a {
+/* .btn--white a {
     color: var(--color-primary-blue);
-}
+} */
 .btn--white:hover {
     background-color: var(--color-primary-blue);
     color: var(--color-light);
