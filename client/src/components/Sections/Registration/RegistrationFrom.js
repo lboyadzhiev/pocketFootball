@@ -2,19 +2,23 @@ import React, { useState } from 'react';
 
 import './RegistrationForm.css';
 
-import Button from '../../UI/Button';
+import SubmitBtn from '../../UI/SubmitBtn';
 
 const RegistrationForm = () => {
-    const emailHandler = () => {
-        console.log('changed');
+    const [inputEmail, setInputEmail] = useState('');
+    const [inputPassword, setInputPassword] = useState('');
+    const [inputRePass, setInputRePass] = useState('');
+
+    const emailHandler = (event) => {
+        setInputEmail(event.target.value);
     };
 
-    const passwordHandler = () => {
-        console.log('pass change');
+    const passwordHandler = (event) => {
+        setInputPassword(event.target.value);
     };
 
-    const rePassHandler = () => {
-        console.log('repass changed');
+    const rePassHandler = (event) => {
+        setInputRePass(event.target.value);
     };
 
     return (
@@ -31,7 +35,7 @@ const RegistrationForm = () => {
                 <label className='form__label'>Repeat Password</label>
                 <input type='password' className='form__item' onChange={rePassHandler} />
             </div>
-            <Button className='btn--green' content='Sign Up' />
+            <SubmitBtn value='Register' />
         </form>
     );
 };

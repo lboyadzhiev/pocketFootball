@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '../../UI/Button';
+import SubmitBtn from '../../UI/SubmitBtn';
 const EditProfileForm = () => {
     return (
         <form className='form'>
@@ -25,7 +25,7 @@ const EditProfileForm = () => {
                 <label className='form__label'>Phone Number</label>
                 <input type='phone' className='form__item' />
             </div>
-            <Button className='btn--green' content='Submit' />
+            <SubmitBtn content='Submit' />
         </form>
     );
 };
