@@ -21,19 +21,49 @@ const RegistrationForm = () => {
         setInputRePass(event.target.value);
     };
 
+    const submitHandler = (event) => {
+        event.preventDefault();
+
+        const data = {
+            email: inputEmail,
+            password: inputPassword,
+            rePass: inputRePass,
+        };
+
+        console.log(data);
+        setInputEmail('');
+        setInputPassword('');
+        setInputRePass('');
+    };
+
     return (
-        <form className='form'>
+        <form className='form' onSubmit={submitHandler}>
             <div className='form__items'>
                 <label className='form__label'>Email</label>
-                <input type='email' className='form__item' onChange={emailHandler} />
+                <input
+                    type='email'
+                    value={inputEmail}
+                    className='form__item'
+                    onChange={emailHandler}
+                />
             </div>
             <div className='form__items'>
                 <label className='form__label'>Password</label>
-                <input type='password' className='form__item' onChange={passwordHandler} />
+                <input
+                    type='password'
+                    value={inputPassword}
+                    className='form__item'
+                    onChange={passwordHandler}
+                />
             </div>
             <div className='form__items'>
                 <label className='form__label'>Repeat Password</label>
-                <input type='password' className='form__item' onChange={rePassHandler} />
+                <input
+                    type='password'
+                    value={inputRePass}
+                    className='form__item'
+                    onChange={rePassHandler}
+                />
             </div>
             <SubmitBtn value='Register' />
         </form>
