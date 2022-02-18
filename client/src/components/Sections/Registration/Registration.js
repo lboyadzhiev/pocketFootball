@@ -4,13 +4,14 @@ import './Registration.css';
 
 import Heading from '../../typography/HeadingTertiary';
 import RegistrationForm from './RegistrationFrom';
+import FormSection from '../../UI/FormSection';
 
 const Registration = () => {
     return (
-        <div className='form-section'>
+        <FormSection>
             <Heading content='Sign Up' />
             <RegistrationForm />
-        </div>
+        </FormSection>
     );
 };
 
