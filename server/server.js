@@ -1,3 +1,2 @@
 const fs = require('fs');
-
-fs.readFileSync();
+const http = require('http');

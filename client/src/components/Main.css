@@ -33,3 +33,8 @@
         right: 2rem;
     }
 }
+
+.show {
+    display: block;
+    transform: translateX(0);
+}
