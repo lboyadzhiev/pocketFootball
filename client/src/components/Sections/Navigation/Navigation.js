@@ -5,10 +5,10 @@ import User from './User';
 import Guest from './Guest';
 
 const Navigation = () => {
-    const [isClicked, setIsClicked] = useState(true);
+    const [isClicked, setIsClicked] = useState(false);
     return (
         <nav className={`nav ${isClicked ? 'show' : ''}`}>
-            <Guest />
+            <User />
         </nav>
     );
 };

@@ -8,6 +8,7 @@ import Registration from '../components/Sections/Registration/Registration';
 import Profile from './Sections/Profile/Profile';
 import EditProfile from './Sections/Profile/EditProfile';
 import MenuIcon from './UI/MenuIcon';
+import Games from './Sections/Games/Games';
 
 const Main = () => {
     return (
@@ -17,6 +18,7 @@ const Main = () => {
             <Registration />
             <Profile />
             <EditProfile />
+            <Games />
         </div>
     );
 };
