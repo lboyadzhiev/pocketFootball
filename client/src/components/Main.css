@@ -6,24 +6,6 @@
     overflow-x: hidden;
 }
 
-.main__menu-container {
-    background-color: var(--color-light);
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 1rem;
-    position: absolute;
-    top: 2rem;
-    right: 6rem;
-    display: none;
-}
-
-.main__menu {
-    font-size: 3.5rem;
-    color: var(--color-primary-blue);
-}
-
 @media only screen and (max-width: 60em) {
     .main {
         width: 100vw;

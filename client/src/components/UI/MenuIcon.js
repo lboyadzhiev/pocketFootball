@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './MenuIcon.css';
+
 import { FaAlignLeft } from 'react-icons/fa';
 
 const MenuIcon = () => {
