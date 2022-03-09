@@ -1,8 +1,9 @@
 import React from 'react';
 
+import './HeadingFourth.css';
 const HeadingFourth = (props) => {
     const content = props.content;
-    return <h2 className='heading-fourth'>{content}</h2>;
+    return <p className='heading-fourth'>{content}</p>;
 };
 
 export default HeadingFourth;

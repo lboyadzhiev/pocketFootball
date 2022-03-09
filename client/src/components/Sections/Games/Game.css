@@ -1,0 +1,9 @@
+.game {
+    width: 50%;
+    color: var(--color-primary-blue);
+    font-size: 1.6rem;
+}
+
+.game-icon {
+    margin-right: 1rem;
+}
