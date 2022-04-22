@@ -8,7 +8,7 @@ const Navigation = () => {
     const [isClicked, setIsClicked] = useState(false);
     return (
         <nav className={`nav ${isClicked ? 'show' : ''}`}>
-            <User />
+            <Guest />
         </nav>
     );
 };

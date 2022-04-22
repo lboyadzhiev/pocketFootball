@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import ListItem from '../../UI/ListItem';
 const Guest = () => {
@@ -6,21 +7,21 @@ const Guest = () => {
         <div className='guest'>
             <ul>
                 <ListItem>
-                    <a href='#'>Login</a>
+                    <NavLink to='/login'>Login</NavLink>
                 </ListItem>
                 <ListItem>
-                    <a href='#'>Register</a>
+                    <NavLink to='/register'>Register</NavLink>
                 </ListItem>
             </ul>
             <ul>
                 <ListItem>
-                    <a href='#'>Games</a>
+                    <NavLink to='/games'>Games</NavLink>
                 </ListItem>
                 <ListItem>
-                    <a href='#'>Pocket FEED</a>
+                    <NavLink to='/'>Pocket FEED</NavLink>
                 </ListItem>
                 <ListItem>
-                    <a href='#'>Tournaments</a>
+                    <NavLink to='/'>Tournaments</NavLink>
                 </ListItem>
             </ul>
         </div>

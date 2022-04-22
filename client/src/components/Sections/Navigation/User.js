@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import ListItem from '../../UI/ListItem';
 
@@ -7,21 +8,21 @@ const User = () => {
         <div className='user'>
             <ul>
                 <ListItem>
-                    <a href='#'>Welcome UserName</a>
+                    <NavLink to='/profile'>Welcome UserName</NavLink>
                 </ListItem>
             </ul>
             <ul>
                 <ListItem>
-                    <a href='#'>My Games</a>
+                    <NavLink to='/myGames'>My Games</NavLink>
                 </ListItem>
                 <ListItem>
-                    <a href='#'>Publick Games</a>
+                    <NavLink to='/games'>Publick Games</NavLink>
                 </ListItem>
                 <ListItem>
-                    <a href='#'>PocketFEED</a>
+                    <NavLink to='/'>PocketFEED</NavLink>
                 </ListItem>
                 <ListItem>
-                    <a href='#'>Rournaments</a>
+                    <NavLink to='/'>Rournaments</NavLink>
                 </ListItem>
             </ul>
         </div>
