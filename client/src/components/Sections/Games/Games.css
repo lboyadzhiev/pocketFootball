@@ -1,4 +1,9 @@
 .gamesSection {
     height: 100%;
+    width: 50%;
     padding: 3rem;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

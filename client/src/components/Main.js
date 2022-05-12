@@ -10,7 +10,7 @@ import Login from './Sections/Login/Login';
 import Profile from './Sections/Profile/Profile';
 import EditProfile from './Sections/Profile/EditProfile';
 import MenuIcon from './UI/MenuIcon';
-import Games from './Sections/Games/Games';
+import Games from './Sections/Games/index';
 
 const Main = () => {
     return (
